@@ -30,8 +30,8 @@
 
   <body class="mb-5">
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary px-5">
+        <div class="container-fluid justify-content-between">
           <a class="navbar-brand" href="#"
             ><img src="./images/myntra_logo.webp" alt="Myntra Logo" width="60"
           /></a>
@@ -72,7 +72,7 @@
             </ul>
           </div>
 
-          <form role="search">
+          <form role="search" class="col-4">
             <input
               class="form-control"
               type="search"
@@ -86,20 +86,21 @@
           >
             <ul class="navbar-nav mb-2">
               <li class="nav-item">
-                <a class="nav-link" href="#"
-                  ><span class="material-symbols-outlined"> person </span></a
+                <a class="nav-link d-flex flex-column text-center" href="#"
+                  ><span class="material-symbols-outlined"> person </span
+                  >Profile</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"
-                  ><span class="material-symbols-outlined"> favorite </span></a
+                <a class="nav-link d-flex flex-column text-center" href="#"
+                  ><span class="material-symbols-outlined"> favorite </span
+                  >Wishlist</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"
-                  ><span class="material-symbols-outlined">
-                    shopping_bag
-                  </span></a
+                <a class="nav-link d-flex flex-column text-center" href="#"
+                  ><span class="material-symbols-outlined"> shopping_bag </span
+                  >Bag</a
                 >
               </li>
             </ul>
@@ -107,7 +108,7 @@
         </div>
       </nav>
     </header>
-    <hr />
+    <hr class="mt-0" />
     <main>
       <article class="container-fluid px-0 mb-5 pt-4">
         <img
@@ -117,7 +118,7 @@
         />
       </article>
       <article class="mb-5">
-        <h1 class="h3 text-uppercase mb-3 fw-bold">
+        <h1 class="h3 text-uppercase mb-3 fw-bold text-body-secondary">
           Medal Worthy Brands To Bag
         </h1>
         <div class="container-fluid px-1">
@@ -164,7 +165,9 @@
         </div>
       </article>
       <article class="mb-4">
-        <h1 class="h3 text-uppercase mb-3 fw-bold">Shop By Category</h1>
+        <h1 class="h3 text-uppercase mb-3 fw-bold text-body-secondary">
+          Shop By Category
+        </h1>
         <div class="container-fluid">
           <div class="row gx-2">
             <div class="col-2">
@@ -207,7 +210,7 @@
     <footer>
       <div class="d-flex justify-content-evenly">
         <ul class="list-group-flush">
-          <li class="list-group-item fw-bold mb-4 text-body text-uppercase">
+          <li class="list-group-item fw-bold mb-3 text-body text-uppercase">
             Online Shopping
           </li>
           <li class="list-group-item text-body-secondary">Men</li>
@@ -219,7 +222,7 @@
           <li class="list-group-item text-body-secondary">Myntra Insider</li>
         </ul>
         <ul class="list-group-flush">
-          <li class="list-group-item fw-bold mb-4 text-body text-uppercase">
+          <li class="list-group-item fw-bold mb-3 text-body text-uppercase">
             Online Shopping
           </li>
           <li class="list-group-item text-body-secondary">Men</li>
@@ -231,7 +234,7 @@
           <li class="list-group-item text-body-secondary">Myntra Insider</li>
         </ul>
         <ul class="list-group-flush">
-          <li class="list-group-item fw-bold mb-4 text-body text-uppercase">
+          <li class="list-group-item fw-bold mb-3 text-body text-uppercase">
             Online Shopping
           </li>
           <li class="list-group-item text-body-secondary">Men</li>
