@@ -30,7 +30,7 @@
 
   <body class="mb-5">
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary px-5">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary px-5 py-1">
         <div class="container-fluid justify-content-between">
           <a class="navbar-brand" href="#"
             ><img src="./images/myntra_logo.webp" alt="Myntra Logo" width="60"
@@ -52,33 +52,53 @@
           >
             <ul class="navbar-nav mb-2">
               <li class="nav-item">
-                <a class="nav-link" href="#">Men</a>
+                <a class="nav-link text-body fw-bolder text-uppercase" href="#"
+                  >Men</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Women</a>
+                <a class="nav-link text-body fw-bolder text-uppercase" href="#"
+                  >Women</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Kids</a>
+                <a class="nav-link text-body fw-bolder text-uppercase" href="#"
+                  >Kids</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Home &amp; Living</a>
+                <a class="nav-link text-body fw-bolder text-uppercase" href="#"
+                  >Home &amp; Living</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Beauty</a>
+                <a class="nav-link text-body fw-bolder text-uppercase" href="#"
+                  >Beauty</a
+                >
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Studio</a>
+              <li class="nav-item studio">
+                <a class="nav-link text-body fw-bolder text-uppercase" href="#"
+                  >Studio</a
+                >
+                <div class="new">New</div>
               </li>
             </ul>
           </div>
 
           <form role="search" class="col-4">
-            <input
-              class="form-control"
-              type="search"
-              placeholder="Search for products, brands and more"
-              aria-label="Search"
-            />
+            <div class="input-group">
+              <span
+                class="material-symbols-outlined bg-body-secondary bg-opacity-25 d-flex justify-content-center align-items-center px-2"
+              >
+                search
+              </span>
+              <input
+                class="form-control rounded-1 text-body-secondary px-0 bg-body-secondary bg-opacity-25 border-0 py-2"
+                type="search"
+                placeholder="Search for products, brands and more"
+                aria-label="Search"
+              />
+            </div>
           </form>
           <div
             class="collapse navbar-collapse flex-grow-0"
@@ -86,19 +106,25 @@
           >
             <ul class="navbar-nav mb-2">
               <li class="nav-item">
-                <a class="nav-link d-flex flex-column text-center" href="#"
+                <a
+                  class="nav-link d-flex flex-column text-center text-body"
+                  href="#"
                   ><span class="material-symbols-outlined"> person </span
                   >Profile</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link d-flex flex-column text-center" href="#"
+                <a
+                  class="nav-link d-flex flex-column text-center text-body"
+                  href="#"
                   ><span class="material-symbols-outlined"> favorite </span
                   >Wishlist</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link d-flex flex-column text-center" href="#"
+                <a
+                  class="nav-link d-flex flex-column text-center text-body"
+                  href="#"
                   ><span class="material-symbols-outlined"> shopping_bag </span
                   >Bag</a
                 >

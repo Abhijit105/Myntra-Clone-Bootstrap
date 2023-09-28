@@ -7,6 +7,37 @@ h1 {
   letter-spacing: 4px;
 }
 
+div:nth-of-type(1) > ul {
+  font-size: 14px !important;
+}
+
+div:nth-of-type(2) > ul {
+  font-size: 16px !important;
+}
+
 input {
-  width: 2;
+  font-size: 14px !important;
+}
+
+input:focus {
+  box-shadow: none !important;
+  border: 2px solid black !important;
+}
+
+a {
+  letter-spacing: 0.6px !important;
+}
+
+.studio {
+  position: relative;
+}
+
+.new {
+  position: absolute;
+  top: 8px;
+  right: -18px;
+  text-transform: uppercase;
+  color: #ff3f6c;
+  font-weight: bolder;
+  font-size: 10px;
 }
